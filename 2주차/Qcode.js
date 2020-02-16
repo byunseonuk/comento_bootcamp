@@ -25,7 +25,7 @@ function drawBarChart(data) {
 			    .orient("left")
 			    .tickFormat(formatPercent);
 	
-			var tip = d3.tip()
+			var tip = d3.tip() 
 			  .attr('class', 'd3-tip')
 			  .offset([-10, 0])
 			  .html(function(d) {
